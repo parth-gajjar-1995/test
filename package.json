@@ -1,0 +1,28 @@
+{
+  "name": "pusher-node-client",
+  "description": "Pusher client for node.js",
+  "version": "0.0.8",
+  "author": "Abhishiv Saxena <abhishiv@gmail.com>",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "pusher",
+    "websockets",
+    "realtime"
+  ],
+  "repository": "git@github.com:abhishiv/pusher-node-client.git",
+  "main": "./lib/pusher-node-client.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-server": "^0.11.1",
+    "mysql": "^2.16.0",
+    "node-uuid": "",
+    "path": "^0.12.7",
+    "pusher": "^2.2.0",
+    "pusher-js": "^4.3.1",
+    "socket.io": "^2.2.0",
+    "underscore": "",
+    "websocket": "1.0.1"
+  }
+}
